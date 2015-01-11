@@ -698,12 +698,16 @@
         	<LineBreak/>
         	<Run Text="1"/>
         </TextBlock>
-        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="160" Margin="175,414,0,0" Stroke="Black" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Fill="#FF474443">
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="160" Margin="175,414,0,0" Stroke="Black" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Fill="#FF474443" Opacity="0">
         	<Rectangle.RenderTransform>
         		<CompositeTransform/>
         	</Rectangle.RenderTransform>
         </Rectangle>
-        <TextBox HorizontalAlignment="Left" Margin="110,325,0,0" TextWrapping="Wrap" Text="    1" VerticalAlignment="Top" Width="20" Height="20"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="91,95,0,0" TextWrapping="Wrap" Text="    1" VerticalAlignment="Top" Width="20" Height="20" RenderTransformOrigin="0.5,0.5">
+        	<TextBox.RenderTransform>
+        		<CompositeTransform/>
+        	</TextBox.RenderTransform>
+        </TextBox>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="200,428,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Opacity="0">
         	<TextBlock.RenderTransform>
         		<CompositeTransform/>
