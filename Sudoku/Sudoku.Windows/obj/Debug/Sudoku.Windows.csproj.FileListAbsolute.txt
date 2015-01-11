@@ -30,3 +30,35 @@ c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Window
 c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\qualifiers.txt.intermediate
 c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\App.xbf
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\MainPage.xbf
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.xr.xml
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.exe
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.pdb
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\resources.pri
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\AppxManifest.xml
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.build.appxrecipe
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\App.g.i.cs
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\App.g.cs
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\MainPage.g.i.cs
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\MainPage.g.cs
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\App.xaml
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\MainPage.xaml
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\App.xbf
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\MainPage.xbf
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\Sudoku.Windows.exe
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\Sudoku.Windows.pdb
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\priconfig.xml
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\priconfig.xml.intermediate
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\layout.resfiles
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\layout.resfiles.intermediate
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\resources.resfiles
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\resources.resfiles.intermediate
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\pri.resfiles
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\pri.resfiles.intermediate
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\qualifiers.txt
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\ProjectArchitectures.txt

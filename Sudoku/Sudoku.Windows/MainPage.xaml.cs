@@ -31,6 +31,7 @@ namespace Sudoku
         {
             string senderInfo = ((TextBlock)sender).Name;
             ((Windows.UI.Xaml.Controls.TextBlock)this.FindName("num" + 1 + "x" + 1 + "_1x1")).Text = "\n25";
+            ww.Begin();
         }
     }
 }

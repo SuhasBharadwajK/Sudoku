@@ -1,1 +1,1 @@
-c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\Sudoku.Windows.csproj;neutral
+C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\Sudoku.Windows.csproj;neutral
