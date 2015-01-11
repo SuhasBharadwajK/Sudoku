@@ -1,0 +1,419 @@
+﻿<Page
+    x:Class="Sudoku.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sudoku"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.689,0.5">
+        <Image HorizontalAlignment="Left" Height="656" Margin="613,54,0,0" VerticalAlignment="Top" Width="654" Source="Assets/grid.png" RenderTransformOrigin="0.494,0.495" Canvas.ZIndex="-5"/>
+        <TextBlock x:ConnectionId='1' x:Name="num1x1_1x1" HorizontalAlignment="Left" Margin="622,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='2' x:Name="num1x1_1x2" HorizontalAlignment="Left" Margin="690,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='3' x:Name="num1x1_1x3" HorizontalAlignment="Left" Margin="757,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='4' x:Name="num1x1_2x1" HorizontalAlignment="Left" Margin="622,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='5' x:Name="num1x1_2x2" HorizontalAlignment="Left" Margin="692,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='6' x:Name="num1x1_2x3" HorizontalAlignment="Left" Margin="758,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='7' x:Name="num1x1_3x1" HorizontalAlignment="Left" Margin="622,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='8' x:Name="num1x1_3x2" HorizontalAlignment="Left" Margin="690,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='9' x:Name="num1x1_3x3" HorizontalAlignment="Left" Margin="758,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='10' x:Name="num1x2_1x1" HorizontalAlignment="Left" Margin="841,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='11' x:Name="num1x2_1x2" HorizontalAlignment="Left" Margin="908,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='12' x:Name="num1x2_1x3" HorizontalAlignment="Left" Margin="974,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='13' x:Name="num1x2_2x1" HorizontalAlignment="Left" Margin="841,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='14' x:Name="num1x2_2x2" HorizontalAlignment="Left" Margin="908,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='15' x:Name="num1x2_2x3" HorizontalAlignment="Left" Margin="975,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='16' x:Name="num1x2_3x1" HorizontalAlignment="Left" Margin="841,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='17' x:Name="num1x2_3x2" HorizontalAlignment="Left" Margin="908,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='18' x:Name="num1x2_3x3" HorizontalAlignment="Left" Margin="975,201,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='19' x:Name="num1x3_1x1" HorizontalAlignment="Left" Margin="1058,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='20' x:Name="num1x3_1x2" HorizontalAlignment="Left" Margin="1125,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='21' x:Name="num1x3_1x3" HorizontalAlignment="Left" Margin="1192,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='22' x:Name="num1x3_2x1" HorizontalAlignment="Left" Margin="1058,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='23' x:Name="num1x3_2x2" HorizontalAlignment="Left" Margin="1125,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='24' x:Name="num1x3_2x3" HorizontalAlignment="Left" Margin="1192,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='25' x:Name="num1x3_3x1" HorizontalAlignment="Left" Margin="1058,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='26' x:Name="num1x3_3x2" HorizontalAlignment="Left" Margin="1125,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='27' x:Name="num1x3_3x3" HorizontalAlignment="Left" Margin="1193,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='28' x:Name="num2x1_1x1" HorizontalAlignment="Left" Margin="622,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='29' x:Name="num2x1_1x2" HorizontalAlignment="Left" Margin="689,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='30' x:Name="num2x1_1x3" HorizontalAlignment="Left" Margin="757,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='31' x:Name="num2x1_2x1" HorizontalAlignment="Left" Margin="622,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='32' x:Name="num2x1_2x2" HorizontalAlignment="Left" Margin="689,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='33' x:Name="num2x1_2x3" HorizontalAlignment="Left" Margin="756,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='34' x:Name="num2x1_3x3" HorizontalAlignment="Left" Margin="756,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='35' x:Name="num2x1_3x2" HorizontalAlignment="Left" Margin="688,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='36' x:Name="num2x1_3x1" HorizontalAlignment="Left" Margin="622,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='37' x:Name="num3x1_1x1" HorizontalAlignment="Left" Margin="622,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='38' x:Name="num3x1_1x2" HorizontalAlignment="Left" Margin="690,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='39' x:Name="num3x1_1x3" HorizontalAlignment="Left" Margin="757,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='40' x:Name="num3x1_2x3" HorizontalAlignment="Left" Margin="757,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='41' x:Name="num3x1_2x2" HorizontalAlignment="Left" Margin="690,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='42' x:Name="num3x1_2x1" HorizontalAlignment="Left" Margin="623,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='43' x:Name="num3x1_3x1" HorizontalAlignment="Left" Margin="623,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='44' x:Name="num3x1_3x2" HorizontalAlignment="Left" Margin="690,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='45' x:Name="num3x1_3x3" HorizontalAlignment="Left" Margin="757,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='46' x:Name="num3x2_3x1" HorizontalAlignment="Left" Margin="840,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='47' x:Name="num3x2_3x2" HorizontalAlignment="Left" Margin="908,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='48' x:Name="num3x2_3x3" HorizontalAlignment="Left" Margin="975,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='49' x:Name="num3x2_2x3" HorizontalAlignment="Left" Margin="975,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='50' x:Name="num3x2_2x2" HorizontalAlignment="Left" Margin="908,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='51' x:Name="num3x2_2x1" HorizontalAlignment="Left" Margin="839,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='52' x:Name="num3x2_1x1" HorizontalAlignment="Left" Margin="839,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='53' x:Name="num3x2_1x2" HorizontalAlignment="Left" Margin="908,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='54' x:Name="num3x2_1x3" HorizontalAlignment="Left" Margin="974,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='55' x:Name="num3x3_1x1" HorizontalAlignment="Left" Margin="1057,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='56' x:Name="num3x3_1x2" HorizontalAlignment="Left" Margin="1124,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='57' x:Name="num3x3_1x3" HorizontalAlignment="Left" Margin="1192,501,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='58' x:Name="num3x3_2x3" HorizontalAlignment="Left" Margin="1192,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='59' x:Name="num3x3_2x2" HorizontalAlignment="Left" Margin="1124,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='60' x:Name="num3x3_2x1" HorizontalAlignment="Left" Margin="1057,568,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='61' x:Name="num3x3_3x1" HorizontalAlignment="Left" Margin="1057,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='62' x:Name="num3x3_3x2" HorizontalAlignment="Left" Margin="1124,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='63' x:Name="num3x3_3x3" HorizontalAlignment="Left" Margin="1191,636,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='64' x:Name="num2x3_3x3" HorizontalAlignment="Left" Margin="1192,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='65' x:Name="num2x3_3x2" HorizontalAlignment="Left" Margin="1124,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='66' x:Name="num2x3_3x1" HorizontalAlignment="Left" Margin="1056,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='67' x:Name="num2x3_2x1" HorizontalAlignment="Left" Margin="1056,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='68' x:Name="num2x3_2x2" HorizontalAlignment="Left" Margin="1124,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='69' x:Name="num2x3_2x3" HorizontalAlignment="Left" Margin="1191,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='70' x:Name="num2x3_1x3" HorizontalAlignment="Left" Margin="1191,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='71' x:Name="num2x3_1x2" HorizontalAlignment="Left" Margin="1124,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='72' x:Name="num2x3_1x1" HorizontalAlignment="Left" Margin="1056,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='73' x:Name="num2x2_1x3" HorizontalAlignment="Left" Margin="975,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='74' x:Name="num2x2_2x3" HorizontalAlignment="Left" Margin="975,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='75' x:Name="num2x2_3x3" HorizontalAlignment="Left" Margin="975,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='76' x:Name="num2x2_3x2" HorizontalAlignment="Left" Margin="907,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='77' x:Name="num2x2_2x2" HorizontalAlignment="Left" Margin="908,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='78' x:Name="num2x2_1x2" HorizontalAlignment="Left" Margin="908,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='79' x:Name="num2x2_1x1" HorizontalAlignment="Left" Margin="840,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='80' x:Name="num2x2_2x1" HorizontalAlignment="Left" Margin="840,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+        <TextBlock x:ConnectionId='81' x:Name="num2x2_3x1" HorizontalAlignment="Left" Margin="840,418,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                   >
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="1"/>
+        </TextBlock>
+    </Grid>
+</Page>
+

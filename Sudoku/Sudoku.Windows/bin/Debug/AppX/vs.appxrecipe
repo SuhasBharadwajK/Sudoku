@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>mic</Machine>
+    <WindowsUser>mic17</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>99d5c91c-5b8b-488b-bb80-7e9045126788</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>17EA5EA2EF0DD9EEAAB4B5B4F59A2AEE01736260F75771EA72772F04B7F21A9F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>99d5c91c-5b8b-488b-bb80-7e9045126788_1.0.0.0_neutral__8j4v6wy8yqfgj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>99d5c91c-5b8b-488b-bb80-7e9045126788_8j4v6wy8yqfgj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>99d5c91c-5b8b-488b-bb80-7e9045126788</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=mic17</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-11T06:55:16.594</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.exe">
+      <PackagePath>Sudoku.Windows.exe</PackagePath>
+      <Modified>2015-01-11T09:30:52.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\Assets\grid.png">
+      <PackagePath>Assets\grid.png</PackagePath>
+      <Modified>2015-01-11T06:48:13.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T18:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-11T06:55:15.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-01-11T09:15:19.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.xr.xml">
+      <PackagePath>Sudoku.Windows.xr.xml</PackagePath>
+      <Modified>2015-01-11T09:11:31.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\mic17\documents\visual studio 2013\Projects\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-11T06:55:15.783</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
