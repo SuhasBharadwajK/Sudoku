@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.exe">
       <PackagePath>Sudoku.Windows.exe</PackagePath>
-      <Modified>2015-01-11T14:06:06.023</Modified>
+      <Modified>2015-01-11T19:27:37.278</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\Assets\grid.png">
       <PackagePath>Assets\grid.png</PackagePath>
@@ -58,11 +58,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-01-11T14:06:05.643</Modified>
+      <Modified>2015-01-11T19:23:18.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\Sudoku.Windows.xr.xml">
       <PackagePath>Sudoku.Windows.xr.xml</PackagePath>
-      <Modified>2015-01-11T14:06:05.548</Modified>
+      <Modified>2015-01-11T19:05:31.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Suhas\Documents\GitHub\Sudoku\Sudoku\Sudoku.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
