@@ -6,6 +6,14 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+	<Page.Resources>
+		<Storyboard x:Name="expand">
+			<DoubleAnimation Duration="0:0:0.4" To="22.855" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="rectangle" d:IsOptimized="True"/>
+			<DoubleAnimation Duration="0:0:0.4" To="20.845" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="rectangle" d:IsOptimized="True"/>
+			<DoubleAnimation Duration="0:0:0.4" To="305.97" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="rectangle" d:IsOptimized="True"/>
+			<DoubleAnimation Duration="0:0:0.4" To="267.91" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="rectangle" d:IsOptimized="True"/>
+		</Storyboard>
+	</Page.Resources>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.689,0.5">
         <Image HorizontalAlignment="Left" Height="656" Margin="613,54,0,0" VerticalAlignment="Top" Width="654" Source="Assets/grid.png" RenderTransformOrigin="0.494,0.495" Canvas.ZIndex="-5"/>
@@ -414,6 +422,10 @@
         	<LineBreak/>
         	<Run Text="1"/>
         </TextBlock>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="27" Margin="145,131,0,0" Stroke="Black" VerticalAlignment="Top" Width="28"/>
+        <Rectangle x:Name="rectangle" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="27" Margin="145,131,0,0" Stroke="Black" VerticalAlignment="Top" Width="28" RenderTransformOrigin="0.5,0.5">
+        	<Rectangle.RenderTransform>
+        		<CompositeTransform/>
+        	</Rectangle.RenderTransform>
+        </Rectangle>
     </Grid>
 </Page>
