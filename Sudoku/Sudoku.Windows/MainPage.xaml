@@ -2496,7 +2496,7 @@
                 <CompositeTransform/>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <TextBlock x:Name="o_1x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Canvas.ZIndex="-5" Canvas.Left="1100" Canvas.Top="94" Opacity="0">
+        <TextBlock x:Name="o_1x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Canvas.ZIndex="-5" Canvas.Left="1100" Canvas.Top="94" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
@@ -2504,42 +2504,42 @@
         	<LineBreak/>
         	<Run/>
         </TextBlock>
-        <TextBlock x:Name="o_1x2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="2&#xD;&#xA;" Tapped="textBlock_Copy_Tapped" Canvas.ZIndex="-5" Canvas.Left="1150" Canvas.Top="94" Opacity="0">
+        <TextBlock x:Name="o_1x2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="2&#xD;&#xA;" Tapped="textBlock_Tapped" Canvas.ZIndex="-5" Canvas.Left="1150" Canvas.Top="94" Opacity="0">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_1x3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="3&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1200" Canvas.Top="94" Opacity="0">
+        <TextBlock x:Name="o_1x3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="3&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1200" Canvas.Top="94" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_2x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="4&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1100" Canvas.Top="147" Opacity="0">
+        <TextBlock x:Name="o_2x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="4&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1100" Canvas.Top="147" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_2x2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="5&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1150" Canvas.Top="147" Opacity="0">
+        <TextBlock x:Name="o_2x2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="5&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1150" Canvas.Top="147" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_2x3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="6&#xA;" Canvas.ZIndex="-5" Canvas.Left="1200" Canvas.Top="147" Opacity="0">
+        <TextBlock x:Name="o_2x3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="6&#xA;" Canvas.ZIndex="-5" Canvas.Left="1200" Canvas.Top="147" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_3x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="7&#xA;" Canvas.ZIndex="-5" Canvas.Left="1100" Canvas.Top="202" Opacity="0">
+        <TextBlock x:Name="o_3x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="7&#xA;" Canvas.ZIndex="-5" Canvas.Left="1100" Canvas.Top="202" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_3x2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="8&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1150" Canvas.Top="202" Opacity="0">
+        <TextBlock x:Name="o_3x2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="8&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1150" Canvas.Top="202" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <TextBlock x:Name="o_3x3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="9&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1200" Canvas.Top="202" Opacity="0">
+        <TextBlock x:Name="o_3x3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="20" RenderTransformOrigin="0.5,0.5" FontSize="21.333" Text="9&#xD;&#xA;" Canvas.ZIndex="-5" Canvas.Left="1200" Canvas.Top="202" Opacity="0" Tapped="textBlock_Tapped">
             <TextBlock.RenderTransform>
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
