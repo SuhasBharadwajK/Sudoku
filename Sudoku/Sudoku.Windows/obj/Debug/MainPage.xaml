@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Page.Resources>
+        <SolidColorBrush x:Key="TextBoxPlaceholderTextThemeBrush" Color="#AB0000" x:Name="myCol" />
         <Storyboard x:Name="expand_rd">
             <DoubleAnimation Duration="0:0:0.6" To="2.223" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="menu1x1_1x1" d:IsOptimized="True">
                 <DoubleAnimation.EasingFunction>
@@ -2079,7 +2080,7 @@
         </Storyboard>
     </Page.Resources>
 
-    <Canvas Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.689,0.5">
+    <Canvas x:Name="TheCanvas" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RenderTransformOrigin="0.689,0.5">
         <Image HorizontalAlignment="Left" Height="656" VerticalAlignment="Top" Width="654" Source="Assets/grid.png" RenderTransformOrigin="0.494,0.495" Canvas.ZIndex="1" Canvas.Left="613" Canvas.Top="54"/>
         <TextBlock x:ConnectionId='1' x:Name="num1x1_1x1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="65" TextAlignment="Center" FontSize="18"                    Canvas.ZIndex="1" Canvas.Left="622" Canvas.Top="65">
         	<Run/>
@@ -2544,7 +2545,7 @@
                 <CompositeTransform/>
             </TextBlock.RenderTransform>
         </TextBlock>
-        <Button x:ConnectionId='91' x:Name="Rev" Content="Button" Canvas.Left="293" Canvas.Top="661"                  />
+        <Rectangle x:ConnectionId='91' x:Name="RektBack" Fill="#FFF4F4F5" Height="1995.5" Stroke="Black" Width="2000" Canvas.ZIndex="-2" Opacity="0"                          />
     </Canvas>
 </Page>
 
